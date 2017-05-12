@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/welcome"
+    tools:context="com.example.ee4901.project2.WelcomeActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:paddingBottom="50dp"
+        android:src="@drawable/logo" />
+    <ImageView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:scaleType="centerInside"
+        android:src="@drawable/brand" />
+</RelativeLayout>

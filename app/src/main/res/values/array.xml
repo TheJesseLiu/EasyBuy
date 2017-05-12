@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="query_suggestions">
+        <item>Housing</item>
+        <item>Furniture</item>
+        <item>Subleasing</item>
+        <item>Rental</item>
+        <item>Testing</item>
+        <item>Test</item>
+    </string-array>
+</resources>
